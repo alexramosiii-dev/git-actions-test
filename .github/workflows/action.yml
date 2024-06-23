@@ -1,5 +1,8 @@
 name: Github Actions Example
 on:
+  pull_request:
+    branches:
+      - '*'
   push:
     branches:
       - '*'
